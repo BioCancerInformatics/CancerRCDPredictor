@@ -47,9 +47,9 @@ The platform integrates seven omic layers:
 
 - Protein abundance
 - Somatic mutations
-- Copy Number Variations (CNV)
+- Copy Number Variation (CNV)
 - miRNA expression
-- Transcript isoforms
+- Transcript isoform-specific expression
 - mRNA expression
 - DNA methylation
 
