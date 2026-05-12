@@ -13,7 +13,6 @@
 
 </div>
 
----
 
 # CancerRCDPredictor
 
@@ -23,7 +22,6 @@ The framework was developed from the methodological architecture described in th
 
 > **A Pan-Cancer Multi-Omic SuperLearner for Regulated Cell Death Survival Topologies**
 
----
 
 # Overview
 
@@ -40,7 +38,6 @@ The platform enables the exploration of:
 
 The system was specifically engineered to bypass limitations of classical proportional hazards models and capture complex non-linear biological survival structures.
 
----
 
 # Key Features
 
@@ -58,7 +55,6 @@ The platform integrates seven omic layers:
 
 through a tokenized multi-layer nomenclature framework optimized for large-scale Pan-Cancer analysis.
 
----
 
 ## Explainable AI Framework
 
@@ -80,7 +76,6 @@ CancerRCDPredictor incorporates multiple explainability modules:
 - Protective antagonistic trajectories
 - Bifurcation survival geometries
 
----
 
 ## Educational Sandbox
 
@@ -94,13 +89,11 @@ Dedicated educational modules explain:
 - Precision oncology trajectories
 - Non-proportional hazard dynamics
 
----
 
 # Analytical Architecture
 
 The platform follows a strict three-phase audit-compliant architecture:
 
----
 
 ## Phase I — Harmonization and Reconstruction
 
@@ -110,7 +103,6 @@ The platform follows a strict three-phase audit-compliant architecture:
 - Fault-tolerant imputation engine
 - Leakage prevention protocols
 
----
 
 ## Phase II — CANARY Structural Diagnostics
 
@@ -119,7 +111,6 @@ The platform follows a strict three-phase audit-compliant architecture:
 - Geometric admissibility gating
 - Survival topology certification
 
----
 
 ## Phase III — Quadripartite Ensemble Synthesis
 
@@ -132,7 +123,6 @@ The final predictive framework combines:
 
 through a Multi-View Elastic Net SuperLearner architecture.
 
----
 
 # Platform Modules
 
@@ -147,7 +137,6 @@ through a Multi-View Elastic Net SuperLearner architecture.
 | Precision Oncology | Individual patient trajectory decomposition |
 | Signature Interpreter | Multi-omic signature exploration |
 
----
 
 # Dataset Scope
 
@@ -170,7 +159,6 @@ The analytical architecture generated:
 - 17,875 biological target elements
 - 372 harmonized preprocessing matrices
 
----
 
 # Technologies
 
@@ -193,7 +181,6 @@ The analytical architecture generated:
 - Responsive Glassmorphism UI
 - Dynamic rendering pipelines
 
----
 
 # Installation
 
