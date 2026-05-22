@@ -64,13 +64,13 @@ The SuperLearner dynamically adapts voting weights to the cohort's biological co
 ## Multi-Omic Predictive Architecture & Nomenclature
 The platform integrates seven omic layers:
 
-Protein abundance (.1)
-Somatic mutations (.2)
-Copy Number Variation (CNV) (.3)
-miRNA expression (.4)
-Transcript isoform-specific expression (.5)
-mRNA expression (.6)
-DNA methylation (.7)
+- Protein abundance (.1)
+- Somatic mutations (.2)
+- Copy Number Variation (CNV) (.3)
+- miRNA expression (.4)
+- Transcript isoform-specific expression (.5)
+- mRNA expression (.6)
+- DNA methylation (.7)
 
 These layers are tracked through an 11-Part Tokenized Nomenclature System (**CTAB-GSI.GFC.PFC.SCS.TNC.HRC.SMC.TMC.TIC.RCD**), ensuring programmatic parsing of biological function, immune landscape, and Regulated Cell Death (RCD) pathways directly from the signature ID.
 
