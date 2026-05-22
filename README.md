@@ -10,6 +10,7 @@
 
 </div>
 
+<br>
 
 **Authors:**  
 [Emanuell de Souza Rodrigues](https://www.researchgate.net/profile/Emanuell-Rodrigues-De-Souza)   
@@ -18,7 +19,7 @@
 [Enrique Medina-Acosta](https://www.researchgate.net/profile/Enrique-Medina-Acosta)
 
 
-# CancerRCDPredictor
+# Purpose
 
 CancerRCDPredictor engineers a novel Pan-Cancer Multi-Omic SuperLearner pipeline designed to mathematically overcome the critical algorithmic bottlenecks of precision oncology—specifically extreme data sparsity, dimensional missingness, and the structural failures of traditional linear proportional-hazards models.
 
