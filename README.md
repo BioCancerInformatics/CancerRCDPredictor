@@ -16,7 +16,9 @@
 
 # CancerRCDPredictor
 
-CancerRCDPredictor is an interactive precision oncology platform designed to explore individualized survival topologies associated with Regulated Cell Death (RCD) pathways across multiple cancer types. The application integrates Pan-Cancer multi-omic signatures with advanced machine learning architectures to provide interpretable, patient-oriented predictive landscapes.
+CancerRCDPredictor engineers a novel Pan-Cancer Multi-Omic SuperLearner pipeline designed to mathematically overcome the critical algorithmic bottlenecks of precision oncology—specifically extreme data sparsity, dimensional missingness, and the structural failures of traditional linear proportional-hazards models.
+
+By mapping non-linear survival topologies across 33 tumor types and introducing a Dual-Track genotypic sparsity displacement architecture, we provide a mathematically resilient predictive framework. Crucially, our system guarantees local interpretability via N-dimensional TreeSHAP interactions, directly answering the mandate for transparent, audit-compliant AI tools capable of managing multi-modal biological complexity without sacrificing patient data.
 
 The framework was developed from the methodological architecture described in the manuscript:
 
@@ -32,12 +34,21 @@ The platform enables the exploration of:
 - 96 validated Pan-Cancer predictive cohorts
 - 12,613 biologically filtered multi-omic signatures
 - 7 omic layers
-- SHAP-based survival geometries
-- Cohort-level interaction topologies
-- Patient-specific non-proportional hazard trajectories
+- SHAP-based survival geometries and LIME surrogate models
+- Cohort-level interaction topologies (mapping 26,800 Synergistic, Antagonistic, and Bifurcation dependencies)
+- 10,306 patient-specific non-proportional hazard trajectories
+- 1,050 patient samples in a clinical blind validation cohort
+- 150 elite "Golden Anchor" RCD signatures (Quadripartite-validated apex drivers)
+- A Dual-Track Inference Architecture (powered by an MVL SuperLearner and XGBoost fallback)
 
 The system was specifically engineered to bypass limitations of classical proportional hazards models and capture complex non-linear biological survival structures.
 
+Key Discoveries & Architectural Outcomes
+Beyond serving as a predictive engine, the CancerRCDPredictor pipeline generated profound biological and algorithmic discoveries:
+
+The Terminal Harvester & 150 Golden Anchors: From an initial universe of 14,595 signatures, the Quadripartite framework forced features to survive a rigorous 4/4 algorithmic constraint (RSF VIMP, XGBoost Gain, Boruta Z-score, MTLR L2-Norm). This distilled the landscape down to exactly 150 "Golden Anchors"—the absolute highest echelon of pan-cancer prognostic reliability.
+Algorithmic Displacement & Genotypic Erasure: The architecture revealed a severe structural displacement during high-dimensional model competition. Continuous phenotypic layers (transcript isoforms, mRNA) monopolized 85.7% of the predictive topology, mathematically suppressing and erasing static genomic mutations and CNVs (0.0% retention in the golden anchors).
+Dynamic SuperLearner Voting (Lush vs. Supreme Exemplars): The SuperLearner dynamically adapts voting weights to the cohort's biological complexity. In high-entropy "Lush" environments (e.g., LGG), it distributes trust equally across all 4 base-learners (25% each) to synthesize fragmented signals. In "Supreme" deterministic environments (e.g., READ_OS), it routes up to 95.7% of trust into XGBoost to maximize resolution.
 
 # Key Features
 
