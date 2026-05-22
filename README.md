@@ -1,8 +1,5 @@
 # CancerRCDPredictor
-
 <div align="center">
-
-<img src="https://img.shields.io/badge/Status-Under%20Active%20Development-orange?style=for-the-badge" alt="Status">
 
 <br>
 
@@ -12,6 +9,13 @@
 <img src="https://img.shields.io/badge/Explainable%20AI-SHAP%20%7C%20LIME-purple?style=for-the-badge">
 
 </div>
+
+
+**Authors:**  
+[Emanuell de Souza Rodrigues](https://www.researchgate.net/profile/Emanuell-Rodrigues-De-Souza)   
+[Higor Almeida Cordeiro Nogueira](https://www.researchgate.net/profile/Higor-Cordeiro-Nogueira)   
+[Victor dos Santos Lopes](https://www.linkedin.com/in/victor-lopes-880604377)   
+[Enrique Medina-Acosta](https://www.researchgate.net/profile/Enrique-Medina-Acosta)
 
 
 # CancerRCDPredictor
