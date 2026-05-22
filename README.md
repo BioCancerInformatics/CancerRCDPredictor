@@ -43,29 +43,31 @@ The platform enables the exploration of:
 
 The system was specifically engineered to bypass limitations of classical proportional hazards models and capture complex non-linear biological survival structures.
 
-Key Discoveries & Architectural Outcomes
+## Key Discoveries & Architectural Outcomes
 Beyond serving as a predictive engine, the CancerRCDPredictor pipeline generated profound biological and algorithmic discoveries:
 
-The Terminal Harvester & 150 Golden Anchors: From an initial universe of 14,595 signatures, the Quadripartite framework forced features to survive a rigorous 4/4 algorithmic constraint (RSF VIMP, XGBoost Gain, Boruta Z-score, MTLR L2-Norm). This distilled the landscape down to exactly 150 "Golden Anchors"—the absolute highest echelon of pan-cancer prognostic reliability.
-Algorithmic Displacement & Genotypic Erasure: The architecture revealed a severe structural displacement during high-dimensional model competition. Continuous phenotypic layers (transcript isoforms, mRNA) monopolized 85.7% of the predictive topology, mathematically suppressing and erasing static genomic mutations and CNVs (0.0% retention in the golden anchors).
-Dynamic SuperLearner Voting (Lush vs. Supreme Exemplars): The SuperLearner dynamically adapts voting weights to the cohort's biological complexity. In high-entropy "Lush" environments (e.g., LGG), it distributes trust equally across all 4 base-learners (25% each) to synthesize fragmented signals. In "Supreme" deterministic environments (e.g., READ_OS), it routes up to 95.7% of trust into XGBoost to maximize resolution.
+### The Terminal Harvester & 150 Golden Anchors: 
+From an initial universe of 14,595 signatures, the Quadripartite framework forced features to survive a rigorous 4/4 algorithmic constraint (RSF VIMP, XGBoost Gain, Boruta Z-score, MTLR L2-Norm). This distilled the landscape down to exactly 150 "Golden Anchors"—the absolute highest echelon of pan-cancer prognostic reliability.
+
+### Algorithmic Displacement & Genotypic Erasure: 
+The architecture revealed a severe structural displacement during high-dimensional model competition. Continuous phenotypic layers (transcript isoforms, mRNA) monopolized 85.7% of the predictive topology, mathematically suppressing and erasing static genomic mutations and CNVs (0.0% retention in the golden anchors).
+
+### Dynamic SuperLearner Voting (Lush vs. Supreme Exemplars): 
+The SuperLearner dynamically adapts voting weights to the cohort's biological complexity. In high-entropy "Lush" environments (e.g., LGG), it distributes trust equally across all 4 base-learners (25% each) to synthesize fragmented signals. In "Supreme" deterministic environments (e.g., READ_OS), it routes up to 95.7% of trust into XGBoost to maximize resolution.
 
 # Key Features
-
-## Multi-Omic Predictive Architecture
-
+## Multi-Omic Predictive Architecture & Nomenclature
 The platform integrates seven omic layers:
 
-- Protein abundance
-- Somatic mutations
-- Copy Number Variation (CNV)
-- miRNA expression
-- Transcript isoform-specific expression
-- mRNA expression
-- DNA methylation
+Protein abundance (.1)
+Somatic mutations (.2)
+Copy Number Variation (CNV) (.3)
+miRNA expression (.4)
+Transcript isoform-specific expression (.5)
+mRNA expression (.6)
+DNA methylation (.7)
 
-through a tokenized multi-layer nomenclature framework optimized for large-scale Pan-Cancer analysis.
-
+These layers are tracked through an 11-Part Tokenized Nomenclature System (**CTAB-GSI.GFC.PFC.SCS.TNC.HRC.SMC.TMC.TIC.RCD**), ensuring programmatic parsing of biological function, immune landscape, and Regulated Cell Death (RCD) pathways directly from the signature ID.
 
 ## Explainable AI Framework
 
