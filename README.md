@@ -71,27 +71,21 @@ These layers are tracked through an 11-Part Tokenized Nomenclature System (**CTA
 
 ## Explainable AI Framework
 
-CancerRCDPredictor incorporates multiple explainability modules:
+CancerRCDPredictor incorporates multiple explainability modules to prevent "black box" predictions:
 
-### Global Explainability
-- SHAP Beeswarm plots
-- Global impact ranking
-- Feature dominance visualization
+# Global Explainability
+- SHAP Beeswarm plots: Global impact ranking and feature dominance visualization.
+# Local Explainability
+- LIME Surrogate Models: Point-of-care localized linear surrogates mapping individualized hazard boundaries.
+- TreeSHAP Waterfall & Force Plots: Decompiling the exact predictive logic of the non-linear SuperLearner for individual patient trajectories.
+# Interaction Explainability
+Mapping 26,800 statistically significant 3D TreeSHAP trans-signature dependencies across three mathematical archetypes:
 
-### Local Explainability
-- LIME surrogate decomposition
-- Waterfall trajectories
-- Patient-level force plots
-
-### Interaction Explainability
-- SHAP interaction topologies
-- Synergistic lethality mapping
-- Protective antagonistic trajectories
-- Bifurcation survival geometries
-
+1. Synergism: Hazard Amplification.
+2. Antagonism: Functional Rescue Effect.
+3. Context-Dependent Bifurcation: Topological sign-reversals.
 
 ## Educational Sandbox
-
 The platform was also designed as a pedagogical topology explorer and educational sandbox for Explainable Artificial Intelligence in precision oncology.
 
 Dedicated educational modules explain:
@@ -102,11 +96,34 @@ Dedicated educational modules explain:
 - Precision oncology trajectories
 - Non-proportional hazard dynamics
 
+## Audit-Compliant Analytical Architecture
+The platform operates on a strictly deterministically gated architecture, governed by 4 Constitutional Contracts (Groupwise isolation, endpoint-scoped cohorts, zero predictor-driven sample reduction, and explicit exclusion ledgers) alongside rigorous Identifiability Thresholds ($E_{min} \ge 20$, $N_{min} \ge 50$).
+
+# Phase I — Harmonization and Reconstruction
+- Universal Resume Engine: A fault-tolerant pipeline deploying 12 distinct imputation methods (including kNN, missForest, XGBoost, LightGBM, MICE, and iSVD) with automated .rds checkpointing for memory safety.
+_ Generation of LiSHMOM: 372 Lineage-Specific Harmonized Multi-Omic Matrices.
+_ Leakage prevention protocols.
+
+# Phase II — CANARY Structural Diagnostics
+- CoxNet Feasibility Auditing: Mathematically mapping proportional-hazards failures and $\mu$-ladder exhaustion.
+- Geometric Admissibility Gating & Survival Topology Certification.
+
+# Phase III — Quadripartite Ensemble Synthesis & Calibration
+- The Base-Learners: Random Survival Forests (RSF), XGBoost, Survival-Boruta, and Multi-Task Logistic Regression (MTLR).
+- The Meta-Learner: Synthesized via a Multi-View Elastic Net SuperLearner (MVL).
+- Brier Calibration Audit: Rigorous post-hoc probability validation using Inverse Probability of Censoring Weighting (IPCW) and Time-Dependent Brier Scores (IBS) across 1-, 3-, and 5-year horizons.
+- "No Cohort Stays Behind" Policy: Algebraic fallback defenses (Z-Score Mean Imputation, Micro-Jitter Variance Injection, Boruta Coerced 0.5 Resolution) preventing singular matrix crashes.
+
+# Internal Blind Validation & Dual-Track Inference Engine
+To guarantee 100% predictive penetrance against the 1,050 pristine validation records, a **Dual-Track Inference Engine** was deployed:
+
+- Path A (SuperLearner): Synthesizes continuous risk hazard Z-scores for structurally intact records.
+- Path B (Native XGBoost Fallback): Autonomously routes highly fragmented patient records through sparsity-aware split finding to prevent artificial risk escalation.
+
 
 # Analytical Architecture
 
 The platform follows a strict three-phase audit-compliant architecture:
-
 
 ## Phase I — Harmonization and Reconstruction
 
