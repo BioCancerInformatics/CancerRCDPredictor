@@ -87,12 +87,18 @@ CancerRCDPredictor incorporates multiple explainability modules to prevent "blac
 - SHAP Beeswarm plots: Global impact ranking and feature dominance visualization.
 
 <p align="center">
-  <img src="https://github.com/BioCancerInformatics/CancerRCDPredictor/blob/main/Figure%20GitHub/Pipeline_tiny.png" width="1200">
+  <img src="https://github.com/BioCancerInformatics/CancerRCDPredictor/blob/main/Figure%20GitHub/Beeswarm.png" width="1200">
 </p>
 
 # Local Explainability
 - LIME Surrogate Models: Point-of-care localized linear surrogates mapping individualized hazard boundaries.
 - TreeSHAP Waterfall & Force Plots: Decompiling the exact predictive logic of the non-linear SuperLearner for individual patient trajectories.
+
+<p align="center">
+  <img src="https://github.com/BioCancerInformatics/CancerRCDPredictor/blob/main/Figure%20GitHub/Lethal_Trajectory.png" width="1200">
+</p>
+
+
 # Interaction Explainability
 Mapping 26,800 statistically significant 3D TreeSHAP trans-signature dependencies across three mathematical archetypes:
 
