@@ -32,6 +32,11 @@ The framework was developed from the methodological architecture described in th
 
 # Overview
 
+<p align="center">
+  <img src="https://github.com/BioCancerInformatics/CancerRCDPredictor/blob/main/Figure%20GitHub/Pipeline_tiny.png" width="1200">
+</p>
+
+
 CancerRCDPredictor was developed as a translational extension of the CancerRCDShiny ecosystem, transforming large-scale prognostic signature catalogs into an interactive predictive and interpretability engine.
 
 The platform enables the exploration of:
@@ -80,6 +85,11 @@ CancerRCDPredictor incorporates multiple explainability modules to prevent "blac
 
 # Global Explainability
 - SHAP Beeswarm plots: Global impact ranking and feature dominance visualization.
+
+<p align="center">
+  <img src="https://github.com/BioCancerInformatics/CancerRCDPredictor/blob/main/Figure%20GitHub/Pipeline_tiny.png" width="1200">
+</p>
+
 # Local Explainability
 - LIME Surrogate Models: Point-of-care localized linear surrogates mapping individualized hazard boundaries.
 - TreeSHAP Waterfall & Force Plots: Decompiling the exact predictive logic of the non-linear SuperLearner for individual patient trajectories.
