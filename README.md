@@ -7,6 +7,7 @@
 <img src="https://img.shields.io/badge/Pan--Cancer-96%20Predictive%20Models-red?style=for-the-badge">
 <img src="https://img.shields.io/badge/Multi--Omics-7%20Layers-success?style=for-the-badge">
 <img src="https://img.shields.io/badge/Explainable%20AI-SHAP%20%7C%20LIME-purple?style=for-the-badge">
+<img src="https://img.shields.io/badge/Internal%20Clinical%20Blind%20Validation%20Cohort%20 -orange?style=for-the-badge">
 
 </div>
 
