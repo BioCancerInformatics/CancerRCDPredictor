@@ -96,7 +96,7 @@ CancerRCDPredictor incorporates multiple explainability modules to prevent "blac
 - TreeSHAP Waterfall & Force Plots: Decompiling the exact predictive logic of the non-linear SuperLearner for individual patient trajectories.
 
 <p align="center">
-  <img src="https://github.com/BioCancerInformatics/CancerRCDPredictor/blob/main/Figure%20GitHub/Lethal_Trajectory.png" width="1200">
+  <img src="https://github.com/BioCancerInformatics/CancerRCDPredictor/blob/main/Figures/Lethal_Trajectory.png" width="1200">
 </p>
 
 
