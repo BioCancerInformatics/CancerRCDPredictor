@@ -88,7 +88,7 @@ CancerRCDPredictor incorporates multiple explainability modules to prevent "blac
 - SHAP Beeswarm plots: Global impact ranking and feature dominance visualization.
 
 <p align="center">
-  <img src="https://github.com/BioCancerInformatics/CancerRCDPredictor/blob/main/Figure%20GitHub/Beeswarm.png" width="1200">
+  <img src="https://github.com/BioCancerInformatics/CancerRCDPredictor/blob/main/Figures/Beeswarm.png" width="1200">
 </p>
 
 # Local Explainability
