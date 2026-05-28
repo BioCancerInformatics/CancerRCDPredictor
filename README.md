@@ -34,7 +34,7 @@ The framework was developed from the methodological architecture described in th
 # Overview
 
 <p align="center">
-  <img src="https://github.com/BioCancerInformatics/CancerRCDPredictor/blob/main/Figure%20GitHub/Pipeline_tiny.png" width="1200">
+  <img src="https://github.com/BioCancerInformatics/CancerRCDPredictor/blob/main/Figures/Pipeline_tiny.png" width="1200">
 </p>
 
 
