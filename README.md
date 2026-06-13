@@ -26,9 +26,7 @@ CancerRCDPredictor engineers a novel Pan-Cancer Multi-Omic SuperLearner pipeline
 
 By mapping non-linear survival topologies across 33 tumor types and introducing a Dual-Track genotypic sparsity displacement architecture, we provide a mathematically resilient predictive framework. Crucially, our system guarantees local interpretability via N-dimensional TreeSHAP interactions, directly answering the mandate for transparent, audit-compliant AI tools capable of managing multi-modal biological complexity without sacrificing patient data.
 
-The framework was developed from the methodological architecture described in the manuscript:
-
-> **A Pan-Cancer Multi-Omic SuperLearner for Regulated Cell Death Survival Topologies**
+> **CancerRCDPredictor** is an interactive Shiny application developed as part of the research associated with the pre-print **A Pan-Cancer Multi-Omic SuperLearner for Regulated Cell Death Survival Topologies**, available at **[bioRxiv]( https://www.biorxiv.org/content/10.64898/2026.05.29.728842v1).**
 
 
 # Overview
