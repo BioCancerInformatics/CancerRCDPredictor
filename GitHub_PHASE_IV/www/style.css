@@ -1,0 +1,179 @@
+/* ==========================================================================
+   CancerRCDShiny - Glassmorphism UI Design System
+   ========================================================================== */
+
+/* Import premium typography */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+/* 1. Global Reset & Theme Variables */
+:root {
+  --primary-color: #3b82f6; /* Vibrant Blue */
+  --secondary-color: #8b5cf6; /* Vibrant Purple */
+  --accent-color: #06b6d4; /* Cyan */
+  --text-primary: #ffffff;
+  --text-secondary: #94a3b8;
+  
+  /* Glassmorphism Variables */
+  --glass-bg: rgba(17, 25, 40, 0.6);
+  --glass-border: rgba(255, 255, 255, 0.125);
+  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+/* 2. Base Document Styles */
+body, .bslib-page-navbar {
+  font-family: 'Outfit', sans-serif !important;
+  color: var(--text-primary);
+  /* The deep, vibrant space gradient */
+  background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%) !important;
+  background-attachment: fixed !important;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Outfit', sans-serif !important;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+/* 3. The Glass Panel Component */
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid var(--glass-border);
+  border-radius: 16px;
+  box-shadow: var(--glass-shadow);
+  padding: 24px;
+  margin-bottom: 24px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  overflow: hidden;
+  position: relative;
+}
+
+.glass-panel:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.5);
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+/* 4. Glass Panel Header Titles */
+.glass-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* 5. Customizing bslib Navbars (Top Navigation) */
+.navbar {
+  background: rgba(15, 23, 42, 0.8) !important;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--glass-border);
+  padding: 1rem 2rem !important;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.5rem;
+  background: linear-gradient(to right, var(--accent-color), var(--secondary-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: -0.5px;
+}
+
+.nav-link {
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+  color: var(--text-secondary) !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+  color: var(--text-primary) !important;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+/* Override uppercase for RCDome tab only — preserve RCD capital + ome lowercase */
+a.nav-link[data-value="tab_rcdome"],
+a.nav-link[data-value="tab_rcdome"].active,
+a.nav-link[data-value="tab_rcdome"]:hover {
+  text-transform: none !important;
+  font-variant: normal !important;
+  letter-spacing: normal !important;
+}
+
+/* 6. Form Inputs & Controls (Shiny Widgets) */
+.form-control, .selectize-input {
+  background: rgba(0, 0, 0, 0.2) !important;
+  border: 1px solid var(--glass-border) !important;
+  color: var(--text-primary) !important;
+  border-radius: 8px !important;
+}
+
+.form-control:focus, .selectize-input.focus {
+  background: rgba(0, 0, 0, 0.3) !important;
+  border-color: var(--primary-color) !important;
+  box-shadow: 0 0 0 0.25rem rgba(59, 130, 246, 0.25) !important;
+}
+
+/* Selectize Dropdown Styling to prevent overlapping/transparency */
+.selectize-dropdown, .selectize-dropdown.form-control {
+  background: #1e293b !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--glass-border) !important;
+  border-radius: 8px !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5) !important;
+  z-index: 999999 !important;
+}
+
+.selectize-dropdown-content {
+  background: #1e293b !important;
+  border-radius: 8px !important;
+}
+
+.selectize-dropdown .option {
+  padding: 8px 12px !important;
+  color: #cbd5e1 !important;
+  background: #1e293b !important;
+  cursor: pointer;
+}
+
+.selectize-dropdown .active {
+  background: var(--primary-color) !important;
+  color: #ffffff !important;
+}
+
+.selectize-dropdown .option:hover {
+  background: var(--primary-color) !important;
+  color: #ffffff !important;
+}
+
+/* 7. Value Boxes / Stat Cards */
+.glass-stat-card {
+  text-align: center;
+  padding: 20px;
+}
+
+.glass-stat-value {
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, #60a5fa, #a78bfa);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 8px;
+}
+
+.glass-stat-label {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--text-secondary);
+}
