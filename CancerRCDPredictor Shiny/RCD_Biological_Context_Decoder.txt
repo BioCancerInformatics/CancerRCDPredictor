@@ -1,0 +1,61 @@
+## RCD BIOLOGICAL CONTEXT DECODER
+## CancerRCDPredictor Phase IV — Precision Oncology Digital Tumor Board
+## Derived from: Committee_RCD_Operational_Definitions.xlsx (NCCD-adapted) and Extended_RCD_Operational_Definitions.xlsx (AI-curated)
+## Manual: Rodrigues et al. — A Pan-Cancer Multi-Omic SuperLearner for Regulated Cell Death Survival Topologies
+## Frontiers in Bioinformatics (2025) — https://www.frontiersin.org/journals/bioinformatics/articles/10.3389/fbinf.2025.1630518/full
+## Injected into: user_prompt_shap (app.R, line ~3776) — SHAP Decoding Clinical Synthesis payload
+## Governance: LLM MUST ONLY discuss RCD forms present in the patient's five signature annotations (NGF v2.6)
+
+--- RCD BIOLOGICAL CONTEXT DECODER ---
+The Associated RCD Form annotations in the signatures above carry precise biological meanings drawn from the NCCD international consensus on Regulated Cell Death and the CancerRCDPredictor operational ontology. Use the following definitions when interpreting the patient's profile:
+
+- Apoptosis: Programmed cell death with cell shrinkage, chromatin condensation, and DNA fragmentation, causing autonomous lysis without inflammation. Interconnected with necroptosis and pyroptosis through shared molecular pathways and caspase activation. In cancer, apoptosis evasion is a hallmark enabling uncontrolled growth; reactivating apoptotic pathways is a central focus of cancer research.
+
+- Necroptosis: Programmed necrosis regulated by RIPK1, RIPK3, and MLKL, causing plasma membrane rupture and inflammation, with secondary mitochondrial dysfunction. Shares signaling pathways with apoptosis and pyroptosis; can be activated when apoptosis is inhibited. Necroptosis can either promote or inhibit cancer depending on context — it can trigger anti-tumor immune responses but also promote tumor-promoting inflammation.
+
+- Pyroptosis: Programmed cell death involving caspase-1 and gasdermin-mediated cell lysis, associated with inflammation. Overlaps with apoptosis through shared initiator caspase machinery and with necroptosis through inflammatory signaling. In cancer, pyroptosis promotes anti-tumor immunity by releasing inflammatory cytokines, but its pro-inflammatory nature can also promote tumor progression.
+
+- Ferroptosis: Iron-dependent cell death with lipid peroxide accumulation — oxidative, non-apoptotic, and programmed via iron-induced lipid peroxide damage. Interconnected with other RCDs through shared oxidative stress pathways. In cancer, ferroptosis eliminates cells with high oxidative stress; evasion implies redox adaptation. Cancers resistant to other death forms may be susceptible to ferroptosis induction.
+
+- Autophagy: Self-digestion via lysosomes, degrading cell components, essential for maintaining cell function and homeostasis. Dual role — can lead to autophagic cell death or promote survival through cellular recycling. In cancer, autophagy can suppress tumor initiation by degrading damaged organelles but also promote survival of established tumors under metabolic stress.
+
+- Necrosis: Morphological endpoint characterized by cell swelling, plasma membrane rupture, and release of cellular contents causing inflammation. Can result from accidental (unregulated) injury or from programmed pathways including necroptosis and MPT-driven necrosis. In cancer, necrosis contributes to tumor progression through inflammatory microenvironment remodeling and immune evasion.
+
+- Anoikis: Form of apoptosis induced by detachment from the extracellular matrix, critical for preventing metastasis. In cancer, anoikis resistance enables cells to survive in circulation and establish secondary tumors. Anoikis resistance is a hallmark of metastatic competence and represents a biologically grounded vulnerability for further investigation.
+
+- Cellular senescence: Stable cell cycle arrest where cells remain metabolically active but no longer proliferate. Though not a cell death executioner mechanism, senescence is part of the RCD ecosystem — it can act as a tumor suppressor by arresting damaged cells, but accumulated senescent cells promote tumor progression through secretion of pro-inflammatory factors (the senescence-associated secretory phenotype, SASP).
+
+- Mitotic catastrophe: An oncosuppressive mechanism that senses aberrant mitosis and genomic instability, typically triggering downstream execution via apoptosis or necrosis rather than constituting a distinct death pathway itself. Induced by treatments that disrupt mitotic progression. In cancer, mitotic catastrophe serves as a fail-safe mechanism for eliminating cells with mitotic defects, preventing aneuploidy and tumor progression.
+
+- Cuproptosis: Regulated cell death driven by copper accumulation and associated mitochondrial stress. Copper-dependent, overlaps with ferroptosis in metal ion dysregulation. A newly discovered pathway exploiting copper accumulation to selectively induce death in cancer cells.
+
+- NETosis: Neutrophil cell death releasing neutrophil extracellular traps (NETs) to trap pathogens — an inflammatory cell death mode of neutrophils. Overlaps with pyroptosis and necroptosis. In cancer, NETosis can trap and kill cancer cells but also promote inflammation and tumor progression.
+
+- Efferocytosis: Clearance process by which apoptotic or dead cells are recognized and removed by phagocytic cells, preventing leakage of inflammatory contents. Though not a cell death executioner mechanism itself, it is the terminal step of the RCD cycle. In the tumor microenvironment, efferocytosis suppresses inflammation but may also impair anti-tumor immunity by silently clearing immunogenic dying cells before they activate immune responses.
+
+- Entosis: Cell death resulting from one cell being engulfed by another — cell-in-cell cannibalism. Overlaps with autophagy and lysosome-dependent cell death. In cancer, entosis can kill engulfed cells but also provide survival advantages to engulfing cells.
+
+- Parthanatos: Programmed cell death via hyperactivated PARP-1, causing DNA fragmentation and AIF translocation to the nucleus. Mediated by PARP enzymes, overlaps with apoptosis in DNA damage response. PARP inhibition can trigger parthanatos in tumors with deficient DNA repair, linking this death form to DNA damage response pathways.
+
+- Immunogenic cell death (ICD): A functional outcome in which dying cells expose or release danger-associated molecular patterns (DAMPs) that activate the adaptive immune system against dead cell antigens. ICD is not a distinct executioner pathway — it is an immunological quality that forms such as apoptosis, necroptosis, and ferroptosis can acquire under specific conditions. Harnessing ICD is being investigated as a therapeutic concept to convert dying tumor cells into an in situ vaccine.
+
+- Disulfidptosis: Condition in which abnormal expression of SLC7A11 under glucose starvation causes disulfide accumulation and stress leading to cell death. Triggered by disulfide accumulation, overlaps with oxidative stress pathways. An emerging area targeting metabolic vulnerabilities of cancer cells under nutrient stress.
+
+- Oxeiptosis: Regulated form of cell death driven by oxidative stress, characterized by involvement of KEAP1 and NRF2. Similar to apoptosis and necroptosis in being triggered by oxidative stress. Its modulation is being investigated for potential relevance to oxidative stress-targeting approaches in cancer.
+
+- Paraptosis: Non-apoptotic cell death with cytoplasmic vacuolation, distinct from apoptosis. Offers potential anti-cancer mechanisms through induction of ER stress. Being explored as a way to overcome resistance to apoptosis in certain cancers.
+
+- Alkaliptosis: pH-dependent cell death triggered by alkaline conditions, involving NF-κB pathways and CA9 downregulation. Overlaps with other stress-induced cell deaths. A recent discovery with potential to target the tumor microenvironment through pH manipulation.
+
+- Lysosome-dependent cell death: Cell death dependent on permeabilization of lysosomes and release of cathepsins. Involves lysosomal enzymes, overlaps with autophagy and apoptosis. Lysosomal permeabilization is being investigated as a potential vulnerability in tumor cells with altered lysosomal regulation.
+
+- Mitoptosis: Selective elimination of damaged mitochondria through mitochondrial permeability transition and oxidative stress, representing organelle-level quality control. Overlaps with autophagy and apoptosis. While primarily a mitochondrial-level process, extensive mitoptosis can contribute to cell death. In cancer, mitochondrial quality control failure may promote tumor progression through metabolic dysfunction.
+
+- Autosis: A subtype of autophagy-dependent cell death, dependent on the Na+/K+-ATPase pump. Occurs in response to stress and ischemia. Its unique mechanism may provide opportunities for targeting resistant cancer cells that evade other forms of autophagic death.
+
+- Erebosis: Novel form of cell death reported during the natural turnover of gut enterocytes. A newly identified process with potential relevance in cancer biology, particularly gut-associated cancers and contexts where cell turnover is high.
+
+- Methuosis: Non-apoptotic cell death characterized by accumulation of macropinosome-derived vacuoles (distinct from the ER-derived vacuoles of paraptosis), driven by constitutive Ras/Rac1 signaling and macropinocytosis, culminating in cell rupture. Less studied in cancer — its unique vacuolization mechanism offers potential for targeting cancers exhibiting high rates of macropinocytosis.
+
+- Mitochondrial permeability transition (MPT): A subcellular trigger event involving the opening of a non-selective pore (mPTP) in the inner mitochondrial membrane, leading to loss of mitochondrial membrane potential and release of pro-death factors. MPT can initiate downstream execution via necrosis or apoptosis. In cancer, MPT modulation may expose metabolic vulnerabilities in tumor cells with altered mitochondrial regulation.
+--- END RCD BIOLOGICAL CONTEXT DECODER ---

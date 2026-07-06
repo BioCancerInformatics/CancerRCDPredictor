@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>25 RCD Forms - Comprehensive Reference Table</title>
+<style>
+  body { font-family: Calibri, 'Segoe UI', sans-serif; font-size: 10px; margin: 15px; color: #222; max-width: 1400px; }
+  h1 { font-size: 18px; margin-bottom: 5px; }
+  p { margin: 5px 0; }
+  .desc { font-size: 10px; color: #444; margin-bottom: 8px; }
+  .source { font-size: 9px; color: #666; }
+  .source a { color: #2255aa; }
+  .citation { font-size: 9px; color: #333; font-style: italic; }
+  .citation a { color: #2255aa; font-style: normal; }
+  table { border-collapse: collapse; width: 100%; margin-top: 10px; }
+  th { background: #4472C4; color: white; font-weight: bold; text-align: left; padding: 4px 5px; font-size: 8.5px; position: sticky; top: 0; z-index: 10; }
+  td { padding: 4px 5px; border: 1px solid #ccc; font-size: 8.5px; vertical-align: top; }
+  td a { color: #2255aa; text-decoration: none; }
+  td a:hover { text-decoration: underline; }
+  tr:nth-child(even) { background: #f2f7fc; }
+  .exe { color: #00008B; font-weight: bold; }
+  .trg { color: #8B4513; font-weight: bold; }
+  .fun { color: #006400; font-weight: bold; }
+  h2 { font-size: 14px; margin-top: 20px; }
+  .summary-table { width: auto; }
+  .summary-table th { background: #4472C4; }
+  .footer { margin-top: 15px; font-style: italic; color: #666; font-size: 9px; }
+</style>
+</head>
+<body>
+<div style="background:#f0f4ff; border-left:4px solid #4472C4; padding:10px 14px; margin-bottom:15px; border-radius:2px;">
+<h1 style="margin:0; font-size:20px;">RCDome</h1>
+<p style="margin:5px 0 0 0; font-size:10px; color:#444;">
+The <strong>Regulated Cell Death Compendium</strong> — a comprehensive, literature-verified reference of the 25 recognized forms of regulated cell death, classified by mechanism, molecular machinery, inflammatory nature, and cancer relevance. Each entry is traceable to its foundational discovery and characterization papers via verified PubMed identifiers. Designed as a canonical reference framework for multi-optosis research and clinical translation.
+</p>
+</div>
+
+<h2 style="margin-top:5px;">25 RCD Forms — Comprehensive Reference Table</h2>
+<p class="desc">All references verified against PubMed (July 2026). Primary references = foundational discovery/characterization papers. Secondary references = reviews providing molecular, mechanistic, or cancer-context support. Galluzzi et al. (2018) PMID:29362479 is the universal NCCD consensus reference for all forms.</p>
+<p class="source">Source: <a href="https://lbtgenomica.uenf.br/cancerrcdpredictor/" target="_blank">https://lbtgenomica.uenf.br/cancerrcdpredictor/</a></p>
+<p class="citation">Citation: Rodrigues de Souza E., Almeida Cordeiro Nogueira H., dos Santos Lopes V. and Medina-Acosta E. (2026). A Pan-Cancer Multi-Omic SuperLearner for Regulated Cell Death Survival Topologies. bioRxiv: <a href="https://www.biorxiv.org/content/10.64898/2026.05.29.728842v1" target="_blank">2026.05.29.728842</a>.</p>
+<table>
+<thead><tr>
+<th>#</th>
+<th>RCD Form</th>
+<th>Category</th>
+<th>Core Mechanism</th>
+<th>Key Molecules</th>
+<th>Inflammatory?</th>
+<th>Cancer Relevance</th>
+<th>Primary References (PMID)</th>
+<th>Secondary References (PMID)</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Apoptosis</td>
+<td class="exe">Executioner</td>
+<td>Programmed cell death with shrinkage, chromatin condensation, DNA fragmentation</td>
+<td>Caspases (3,8,9), BCL-2 family, cytochrome c</td>
+<td>No</td>
+<td>Evasion is a cancer hallmark; reactivation is a central therapeutic focus</td>
+<td>Elmore (2007) Toxicol Pathol 35:495–516 [<a href="https://pubmed.ncbi.nlm.nih.gov/17562483" target="_blank">17562483</a>]; Galluzzi et al. (2018) Cell Death Differ 25:486–541 [<a href="https://pubmed.ncbi.nlm.nih.gov/29362479" target="_blank">29362479</a>]</td>
+<td>Taylor et al. (2008) Nat Rev Mol Cell Biol 9:231–241 [<a href="https://pubmed.ncbi.nlm.nih.gov/18073771" target="_blank">18073771</a>]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Necroptosis</td>
+<td class="exe">Executioner</td>
+<td>Programmed necrosis via RIPK1/RIPK3/MLKL with plasma membrane rupture</td>
+<td>RIPK1, RIPK3, MLKL</td>
+<td>Yes</td>
+<td>Dual: anti-tumor immunity vs. tumor-promoting inflammation</td>
+<td>Sun et al. (2012) Cell 148:213–227 [<a href="https://pubmed.ncbi.nlm.nih.gov/22265413" target="_blank">22265413</a>]; Galluzzi et al. (2018) [<a href="https://pubmed.ncbi.nlm.nih.gov/29362479" target="_blank">29362479</a>]</td>
+<td>Vanden Berghe et al. (2014) Nat Rev Mol Cell Biol 15:135–147 [<a href="https://pubmed.ncbi.nlm.nih.gov/24452471" target="_blank">24452471</a>]; Zhang et al. (2022) Semin Cancer Biol [<a href="https://pubmed.ncbi.nlm.nih.gov/35908574" target="_blank">35908574</a>]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Pyroptosis</td>
+<td class="exe">Executioner</td>
+<td>Caspase-1/gasdermin-mediated lysis</td>
+<td>Caspase-1, GSDMD, NLRP3 inflammasome</td>
+<td>Yes</td>
+<td>Anti-tumor immunity via cytokine release; can also promote progression</td>
+<td>Shi et al. (2015) Nature 526:660–665 [<a href="https://pubmed.ncbi.nlm.nih.gov/26375003" target="_blank">26375003</a>]; Galluzzi et al. (2018) [<a href="https://pubmed.ncbi.nlm.nih.gov/29362479" target="_blank">29362479</a>]</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Ferroptosis</td>
+<td class="exe">Executioner</td>
+<td>Iron-dependent lipid peroxide accumulation</td>
+<td>GPX4, SLC7A11, ACSL4, iron</td>
+<td>Yes (oxidative)</td>
+<td>Eliminates high-oxidative-stress cells; targets apoptosis-resistant cancers</td>
+<td>Dixon et al. (2012) Cell 149:1060–1072 [<a href="https://pubmed.ncbi.nlm.nih.gov/22632970" target="_blank">22632970</a>]; Stockwell et al. (2017) Cell 171:273–285 [<a href="https://pubmed.ncbi.nlm.nih.gov/28985560" target="_blank">28985560</a>]</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Autophagy</td>
+<td class="exe">Executioner</td>
+<td>Lysosomal self-digestion and cellular recycling</td>
+<td>ATG proteins, LC3, Beclin-1, p62/SQSTM1</td>
+<td>Context-dependent</td>
+<td>Dual: suppresses tumor initiation; promotes survival of established tumors under stress</td>
+<td>Debnath et al. (2023) Nat Rev Mol Cell Biol 24:560–575 [<a href="https://pubmed.ncbi.nlm.nih.gov/36864290" target="_blank">36864290</a>]; Galluzzi et al. (2018) [<a href="https://pubmed.ncbi.nlm.nih.gov/29362479" target="_blank">29362479</a>]</td>
+<td>Mizushima et al. (2011) Annu Rev Cell Dev Biol 27:107–132 [<a href="https://pubmed.ncbi.nlm.nih.gov/21801009" target="_blank">21801009</a>]</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Necrosis</td>
+<td class="exe">Executioner</td>
+<td>Cell swelling, membrane rupture, release of cellular contents</td>
+<td>ATP depletion, Ca overload (accidental); RIPK1/RIPK3 (programmed)</td>
+<td>Yes</td>
+<td>Progression via inflammatory microenvironment remodeling and immune evasion</td>
+<td>Kim et al. (2019) Exp Mol Med 51:1–10 [<a href="https://pubmed.ncbi.nlm.nih.gov/31827074" target="_blank">31827074</a>]; Galluzzi et al. (2018) [<a href="https://pubmed.ncbi.nlm.nih.gov/29362479" target="_blank">29362479</a>]</td>
+<td>Vanden Berghe et al. (2014) Nat Rev Mol Cell Biol 15:135–147 [<a href="https://pubmed.ncbi.nlm.nih.gov/24452471" target="_blank">24452471</a>]</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Anoikis</td>
+<td class="exe">Executioner</td>
+<td>Apoptosis triggered by ECM detachment</td>
+<td>Integrins, BCL-2 family, FAK</td>
+<td>No</td>
+<td>Resistance enables metastasis; hallmark of metastatic competence</td>
+<td>Frisch & Francis (1994) J Cell Biol 124:619–626 [<a href="https://pubmed.ncbi.nlm.nih.gov/8106557" target="_blank">8106557</a>]; Galluzzi et al. (2018) [<a href="https://pubmed.ncbi.nlm.nih.gov/29362479" target="_blank">29362479</a>]</td>
+<td>Paoli et al. (2013) Biochim Biophys Acta 1833:3481–3498 [<a href="https://pubmed.ncbi.nlm.nih.gov/23830918" target="_blank">23830918</a>]</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Cuproptosis</td>
+<td class="exe">Executioner</td>
+<td>Copper accumulation driving mitochondrial stress</td>
+<td>FDX1, LIAS, DLAT, copper</td>
+<td>Yes (mitochondrial)</td>
+<td>Exploits copper accumulation to selectively kill cancer cells</td>
+<td>Tsvetkov et al. (2022) Science 375:1254–1261 [<a href="https://pubmed.ncbi.nlm.nih.gov/35298263" target="_blank">35298263</a>]</td>
+<td>Zhao et al. (2024) Cell Commun Signal 22:389 [<a href="https://pubmed.ncbi.nlm.nih.gov/39068453" target="_blank">39068453</a>]</td>
+</tr>
+<tr>
+<td>9</td>
+<td>NETosis</td>
+<td class="exe">Executioner</td>
+<td>Neutrophil death releasing neutrophil extracellular traps (NETs)</td>
+<td>MPO, NE, PAD4, histones</td>
+<td>Yes</td>
+<td>Can trap/kill cancer cells; also promotes inflammation and progression</td>
+<td>Brinkmann et al. (2004) Science 303:1532–1535 [<a href="https://pubmed.ncbi.nlm.nih.gov/15001782" target="_blank">15001782</a>]; Galluzzi et al. (2018) [<a href="https://pubmed.ncbi.nlm.nih.gov/29362479" target="_blank">29362479</a>]</td>
+<td>Ma et al. (2024) MedComm 5:e666 [<a href="https://pubmed.ncbi.nlm.nih.gov/39015554" target="_blank">39015554</a>]</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Entosis</td>
+<td class="exe">Executioner</td>
+<td>Cell-in-cell cannibalism; one cell engulfing and killing another</td>
+<td>Rho/ROCK, actomyosin, E-cadherin</td>
+<td>No</td>
+<td>Kills engulfed cells; may provide survival advantages to engulfing cells</td>
+<td>Overholtzer et al. (2007) Cell 131:966–979 [<a href="https://pubmed.ncbi.nlm.nih.gov/18045538" target="_blank">18045538</a>]; Galluzzi et al. (2018) [<a href="https://pubmed.ncbi.nlm.nih.gov/29362479" target="_blank">29362479</a>]</td>
+<td>Das et al. (2025) Adv Exp Med Biol [<a href="https://pubmed.ncbi.nlm.nih.gov/41004086" target="_blank">41004086</a>]</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Parthanatos</td>
+<td class="exe">Executioner</td>
+<td>PARP-1 hyperactivation causing DNA fragmentation and AIF nuclear translocation</td>
+<td>PARP-1, AIF, MIF</td>
+<td>Yes</td>
+<td>PARP inhibition triggers parthanatos in DNA-repair-deficient tumors</td>
+<td>Fatokun et al. (2014) Br J Pharmacol 171:2000–2016 [<a href="https://pubmed.ncbi.nlm.nih.gov/24684389" target="_blank">24684389</a>]; Galluzzi et al. (2018) [<a href="https://pubmed.ncbi.nlm.nih.gov/29362479" target="_blank">29362479</a>]</td>
+<td>Gupta et al. (2025) EXCLI J 24:457–477 [<a href="https://pubmed.ncbi.nlm.nih.gov/40166425" target="_blank">40166425</a>]</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Disulfidptosis</td>
+<td class="exe">Executioner</td>
+<td>SLC7A11-mediated disulfide accumulation under glucose starvation</td>
+<td>SLC7A11, NADPH, disulfide bonds</td>
+<td>Yes (stress)</td>
+<td>Emerging target for metabolic vulnerabilities under nutrient stress</td>
+<td>Liu et al. (2023) Nat Cell Biol 25:404–414 [<a href="https://pubmed.ncbi.nlm.nih.gov/36747082" target="_blank">36747082</a>]</td>
+<td>Hemmati et al. (2026) Discov Oncol [<a href="https://pubmed.ncbi.nlm.nih.gov/41961425" target="_blank">41961425</a>]</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Oxeiptosis</td>
+<td class="exe">Executioner</td>
+<td>Oxidative stress-driven, KEAP1/NRF2-dependent</td>
+<td>KEAP1, NRF2, ROS</td>
+<td>Yes (oxidative)</td>
+<td>Potential relevance to oxidative-stress-targeting approaches</td>
+<td>Holze et al. (2018) Nat Cell Biol 20:735–747 [<a href="https://pubmed.ncbi.nlm.nih.gov/29255269" target="_blank">29255269</a>]; Galluzzi et al. (2018) [<a href="https://pubmed.ncbi.nlm.nih.gov/29362479" target="_blank">29362479</a>]</td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Paraptosis</td>
+<td class="exe">Executioner</td>
+<td>Non-apoptotic death with ER-derived cytoplasmic vacuolation</td>
+<td>ER stress, MAPK, Ca</td>
+<td>No</td>
+<td>Overcomes apoptosis resistance via ER stress induction</td>
+<td>Sperandio et al. (2000) Proc Natl Acad Sci USA 97:14376–14381 [<a href="https://pubmed.ncbi.nlm.nih.gov/11121041" target="_blank">11121041</a>]; Galluzzi et al. (2018) [<a href="https://pubmed.ncbi.nlm.nih.gov/29362479" target="_blank">29362479</a>]</td>
+<td>Anceschi et al. (2026) Cell Death Discov [<a href="https://pubmed.ncbi.nlm.nih.gov/42373592" target="_blank">42373592</a>]</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Alkaliptosis</td>
+<td class="exe">Executioner</td>
+<td>pH-dependent death under alkaline conditions; NF-kB/CA9-dependent</td>
+<td>NF-kB, CA9, IkB</td>
+<td>Yes</td>
+<td>Targets TME through pH manipulation</td>
+<td>Song et al. (2018) Gastroenterology 154:228–240 [<a href="https://pubmed.ncbi.nlm.nih.gov/29248440" target="_blank">29248440</a>]; Chen F et al. (2023) Cell Rep 42:112131 [<a href="https://pubmed.ncbi.nlm.nih.gov/36640329" target="_blank">36640329</a>]</td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>Lysosome-dependent cell death</td>
+<td class="exe">Executioner</td>
+<td>Lysosomal permeabilization releasing cathepsins</td>
+<td>Cathepsins (B, D, L), LAMP1/2, ROS</td>
+<td>Yes</td>
+<td>Vulnerability in tumors with altered lysosomal regulation</td>
+<td>Aits & Jaattela (2013) J Cell Sci 126:1905–1912 [<a href="https://pubmed.ncbi.nlm.nih.gov/23720375" target="_blank">23720375</a>]; Galluzzi et al. (2018) [<a href="https://pubmed.ncbi.nlm.nih.gov/29362479" target="_blank">29362479</a>]</td>
+<td>Wang et al. (2018) Biochim Biophys Acta Rev Cancer 1870:207–227 [<a href="https://pubmed.ncbi.nlm.nih.gov/30316942" target="_blank">30316942</a>]</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Mitoptosis</td>
+<td class="exe">Executioner</td>
+<td>Selective elimination of damaged mitochondria (organelle-level quality control)</td>
+<td>mPTP, ROS, mitochondrial fission proteins</td>
+<td>Yes (mitochondrial)</td>
+<td>Mitochondrial quality control failure may promote progression</td>
+<td>Lyamzaev et al. (2020) Biochemistry (Mosc) 85:1484–1498 [<a href="https://pubmed.ncbi.nlm.nih.gov/33705288" target="_blank">33705288</a>]; Galluzzi et al. (2018) [<a href="https://pubmed.ncbi.nlm.nih.gov/29362479" target="_blank">29362479</a>]</td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>Autosis</td>
+<td class="exe">Executioner</td>
+<td>Autophagy-dependent death requiring Na/K-ATPase</td>
+<td>Na/K-ATPase, Beclin-1, ATG5/7</td>
+<td>Yes</td>
+<td>Targets resistant cells that evade other autophagic death forms</td>
+<td>Liu et al. (2013) Proc Natl Acad Sci USA 110:20364–20371 [<a href="https://pubmed.ncbi.nlm.nih.gov/24277826" target="_blank">24277826</a>]</td>
+<td>Depierre et al. (2024) Cell Death Dis 15:429 [<a href="https://pubmed.ncbi.nlm.nih.gov/38796484" target="_blank">38796484</a>]</td>
+</tr>
+<tr>
+<td>19</td>
+<td>Erebosis</td>
+<td class="exe">Executioner</td>
+<td>Novel cell death reported in gut enterocyte turnover</td>
+<td>Poorly characterized</td>
+<td>Unknown</td>
+<td>Potential relevance to gut-associated cancers and high-turnover contexts</td>
+<td>Ciesielski et al. (2022) PLoS Biol 20:e3001713 [<a href="https://pubmed.ncbi.nlm.nih.gov/35468130" target="_blank">35468130</a>]</td>
+<td>Note: Only one paper exists; molecular characterization pending.</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Methuosis</td>
+<td class="exe">Executioner</td>
+<td>Non-apoptotic death with macropinosome-derived vacuoles; Ras/Rac1-driven</td>
+<td>Ras, Rac1, macropinocytosis</td>
+<td>No (rupture)</td>
+<td>Targets cancers exhibiting high macropinocytosis rates</td>
+<td>Maltese & Overmeyer (2014) Am J Pathol 184:1630–1642 [<a href="https://pubmed.ncbi.nlm.nih.gov/24726643" target="_blank">24726643</a>]; Galluzzi et al. (2018) [<a href="https://pubmed.ncbi.nlm.nih.gov/29362479" target="_blank">29362479</a>]</td>
+<td></td>
+</tr>
+<tr>
+<td>21</td>
+<td>Mitotic catastrophe</td>
+<td class="trg">Trigger</td>
+<td>Oncosuppressive sensor of aberrant mitosis and genomic instability</td>
+<td>CDK1, Cyclin B, PLK1, Aurora kinases</td>
+<td>Downstream: Apoptosis or Necrosis</td>
+<td>Fail-safe eliminating mitotically defective cells; induced by anti-mitotic therapies</td>
+<td>Castedo et al. (2004) Oncogene 23:2825–2837 [<a href="https://pubmed.ncbi.nlm.nih.gov/15077146" target="_blank">15077146</a>]; Galluzzi et al. (2018) [<a href="https://pubmed.ncbi.nlm.nih.gov/29362479" target="_blank">29362479</a>]</td>
+<td></td>
+</tr>
+<tr>
+<td>22</td>
+<td>Mitochondrial permeability transition (MPT)</td>
+<td class="trg">Trigger</td>
+<td>Opening of mPTP causing loss of mitochondrial membrane potential</td>
+<td>Cyclophilin D, ANT, mPTP components</td>
+<td>Downstream: Necrosis or Apoptosis</td>
+<td>May expose metabolic vulnerabilities in tumors with altered mitochondrial regulation</td>
+<td>Suh et al. (2013) Front Oncol 3:143 [<a href="https://pubmed.ncbi.nlm.nih.gov/23483560" target="_blank">23483560</a>]; Galluzzi et al. (2018) [<a href="https://pubmed.ncbi.nlm.nih.gov/29362479" target="_blank">29362479</a>]</td>
+<td>Boyenle et al. (2022) Mitochondrion 63:47–56 [<a href="https://pubmed.ncbi.nlm.nih.gov/35077882" target="_blank">35077882</a>]</td>
+</tr>
+<tr>
+<td>23</td>
+<td>Immunogenic cell death (ICD)</td>
+<td class="fun">Functional</td>
+<td>Dying cells expose/release DAMPs activating adaptive immunity</td>
+<td>CALR, HMGB1, ATP, HSP70/90</td>
+<td>N/A (not an executioner)</td>
+<td>Potential to convert dying tumor cells into an in situ vaccine</td>
+<td>Kroemer et al. (2013) Annu Rev Immunol 31:51–72 [<a href="https://pubmed.ncbi.nlm.nih.gov/23157435" target="_blank">23157435</a>]; Galluzzi et al. (2017) Nat Rev Immunol 17:97–111 [<a href="https://pubmed.ncbi.nlm.nih.gov/27748397" target="_blank">27748397</a>]</td>
+<td></td>
+</tr>
+<tr>
+<td>24</td>
+<td>Efferocytosis</td>
+<td class="fun">Functional</td>
+<td>Phagocytic clearance of apoptotic/dead cells preventing inflammatory leakage</td>
+<td>MERTK, AXL, TYRO3, phosphatidylserine</td>
+<td>N/A (not an executioner)</td>
+<td>Suppresses inflammation; may impair anti-tumor immunity</td>
+<td>Qiu et al. (2023) Biomed Pharmacother 167:115404 [<a href="https://pubmed.ncbi.nlm.nih.gov/37741255" target="_blank">37741255</a>]; Galluzzi et al. (2018) [<a href="https://pubmed.ncbi.nlm.nih.gov/29362479" target="_blank">29362479</a>]</td>
+<td>Tajbakhsh et al. (2021) Biomed Pharmacother 140:111817 [<a href="https://pubmed.ncbi.nlm.nih.gov/34062411" target="_blank">34062411</a>]</td>
+</tr>
+<tr>
+<td>25</td>
+<td>Cellular senescence</td>
+<td class="fun">Functional</td>
+<td>Stable cell cycle arrest with metabolic activity; SASP secretion</td>
+<td>p53, p16, p21, SASP factors</td>
+<td>N/A (not an executioner)</td>
+<td>Tumor suppressor; accumulated senescent cells promote progression via SASP</td>
+<td>Campisi (2013) Annu Rev Physiol 75:685–705 [<a href="https://pubmed.ncbi.nlm.nih.gov/23140366" target="_blank">23140366</a>]; Galluzzi et al. (2018) [<a href="https://pubmed.ncbi.nlm.nih.gov/29362479" target="_blank">29362479</a>]</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Summary</h2>
+<table class="summary-table">
+<tr>
+<th>Category</th>
+<th>Count</th>
+<th>Range</th>
+<th>RCD Forms</th>
+</tr>
+<tr>
+<td>Executioner</td>
+<td>20</td>
+<td>#1–20</td>
+<td>Apoptosis through Methuosis</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>2</td>
+<td>#21–22</td>
+<td>Mitotic catastrophe, MPT</td>
+</tr>
+<tr>
+<td>Functional</td>
+<td>3</td>
+<td>#23–25</td>
+<td>ICD, Efferocytosis, Cellular senescence</td>
+</tr>
+</table>
+<p class="footer">Note: Key molecules reflect domain consensus supported by the cited primary and secondary references. Where secondary references are blank, the primary references provide sufficient support. Erebosis (#19) has only one published paper; molecular characterization is pending. All references verified against PubMed, July 2026.</p>
+</body>
+</html>

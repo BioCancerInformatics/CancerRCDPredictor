@@ -1,0 +1,69 @@
+---
+title: "CancerRCDPredictor Diagnostic Report (Precision Oncology)"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output: 
+  html_document:
+    theme: flatly
+params:
+  logo: ""
+  patient_id: ""
+  cohort: ""
+  trajectory_type: ""
+  trajectory_path: ""
+  beeswarm_path: ""
+  dependence_path: ""
+  auroc_path: ""
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+<style>
+  h1.title { display: none !important; }
+  body { font-size: 13px; }
+</style>
+
+<table width="100%" style="border-bottom: 2px solid #e2e8f0; margin-bottom: 20px; padding-bottom: 10px;">
+  <tr>
+    <td valign="top" style="width: 80%; padding-right: 20px;">
+      <h1 style="font-size: 22px; margin-top: 0; margin-bottom: 0; color: #1e293b; line-height: 1.3;">
+        CancerRCDPredictor Diagnostic Report<br>
+        <span style="font-size: 16px; color: #64748b;">(Precision Oncology)</span>
+      </h1>
+    </td>
+    <td valign="top" align="right" style="width: 20%; padding-top: 3mm;">
+      <img src="`r params$logo`" style="width: 85px; height: 85px; border-radius: 50%; -webkit-border-radius: 50%; box-shadow: 0 4px 20px rgba(255, 69, 0, 0.4); object-fit: cover; border: 2px solid rgba(255, 69, 0, 0.6); display: block; float: right;">
+    </td>
+  </tr>
+</table>
+
+### Patient Executive Summary
+**Patient Barcode:** `r params$patient_id`
+**Clinical Cohort:** `r params$cohort`
+**Risk Assessment:** `r params$trajectory_type`
+
+<hr style="margin-top: 15px; margin-bottom: 20px;">
+
+#### Clinical Diagnostic Multi-Panel
+
+```{r layout, results='asis'}
+cat('<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between;">\n')
+cat(sprintf('<div style="width: 48%%; padding: 8px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px;">\n  <h6 style="color: #334155; border-bottom: 1px solid #cbd5e1; padding-bottom: 3px; margin-top: 0;">1. Personalized Patient Trajectory</h6>\n  <img src="%s" style="width: 100%%; max-height: 240px; object-fit: contain; border-radius: 4px;">\n</div>\n', params$trajectory_path))
+cat(sprintf('<div style="width: 48%%; padding: 8px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px;">\n  <h6 style="color: #334155; border-bottom: 1px solid #cbd5e1; padding-bottom: 3px; margin-top: 0;">2. Global Cohort Impact (Beeswarm)</h6>\n  <img src="%s" style="width: 100%%; max-height: 240px; object-fit: contain; border-radius: 4px;">\n</div>\n', params$beeswarm_path))
+cat(sprintf('<div style="width: 48%%; padding: 8px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-top: 10px;">\n  <h6 style="color: #334155; border-bottom: 1px solid #cbd5e1; padding-bottom: 3px; margin-top: 0;">3. Dominant Signature Topology</h6>\n  <img src="%s" style="width: 100%%; max-height: 240px; object-fit: contain; border-radius: 4px;">\n</div>\n', params$dependence_path))
+cat(sprintf('<div style="width: 48%%; padding: 8px; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-top: 10px;">\n  <h6 style="color: #334155; border-bottom: 1px solid #cbd5e1; padding-bottom: 3px; margin-top: 0;">4. Ensemble Validation (TimeROC)</h6>\n  <img src="%s" style="width: 100%%; max-height: 240px; object-fit: contain; border-radius: 4px;">\n</div>\n', params$auroc_path))
+cat('</div>\n')
+```
+
+**Diagnostic Figure Legend**
+<div style="background: #f8fafc; border-left: 4px solid #60a5fa; padding: 15px; font-size: 14px; color: #334155; margin-bottom: 30px;">
+  <p><strong>1. Personalized Patient Trajectory:</strong> Maps the specific multi-omic signatures acting as hazard vectors, driving the individual's prognosis from the population baseline toward either an accelerated lethal or protected clinical outcome.</p>
+  <p><strong>2. Global Cohort Impact (Beeswarm):</strong> Contextualizes the patient's personalized signature weights against the global geometrical interaction landscape of the entire evaluated cohort.</p>
+  <p><strong>3. Dominant Signature Topology:</strong> Visualizes the explicit SHAP dependence and interaction thresholds for the most impactful multi-omic feature driving the patient's trajectory.</p>
+  <p><strong>4. Ensemble Validation (TimeROC):</strong> Confirms the mathematical fidelity of the Multi-View SuperLearner (MVL) predicting this trajectory, proven across 1, 3, and 5-year survival horizons.</p>
+</div>
+
+<div style="font-size: 11px; color: #666; border-top: 1px solid #ccc; padding-top: 10px;">
+**Disclaimer:** *This report is generated exclusively for research and educational purposes. It does not constitute medical advice. Do not use this information to make direct clinical or treatment decisions for patients. The data, interactions, and predictions shown are strictly specific to the patient groups analyzed in this study.*
+</div>

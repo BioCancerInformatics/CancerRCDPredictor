@@ -1,0 +1,207 @@
+Level	Setting	Gene	Alterations	Cancer Types
+Fda3	Somatic	AKT1	E17K	Ovarian Cancer, Endometrial Cancer
+Fda3	Somatic	ALK	C1156Y	Non-Small Cell Lung Cancer
+Fda3	Somatic	ALK	F1174C	Neuroblastoma
+Fda3	Somatic	ALK	F1174L	Neuroblastoma
+Fda3	Somatic	ALK	F1245V	Neuroblastoma
+Fda3	Somatic	ALK	F1245Y	Neuroblastoma
+Fda3	Somatic	ALK	Fusions	Inflammatory Myofibroblastic Tumor
+Fda3	Somatic	ALK	Fusions	Non-Small Cell Lung Cancer
+Fda3	Somatic	ALK	G1202R	Non-Small Cell Lung Cancer
+Fda3	Somatic	ALK	G1269A	Non-Small Cell Lung Cancer
+Fda3	Somatic	ALK	I1171N	Non-Small Cell Lung Cancer
+Fda3	Somatic	ALK	I1171S	Non-Small Cell Lung Cancer
+Fda3	Somatic	ALK	I1171T	Non-Small Cell Lung Cancer
+Fda3	Somatic	ALK	L1196M	Non-Small Cell Lung Cancer
+Fda3	Somatic	ALK	L1196Q	Non-Small Cell Lung Cancer
+Fda3	Somatic	ALK	R1275L	Neuroblastoma
+Fda3	Somatic	ALK	R1275Q	Neuroblastoma
+Fda3	Somatic	ALK	T1151M	Non-Small Cell Lung Cancer
+Fda3	Somatic	ALK	V1180L	Non-Small Cell Lung Cancer
+Fda3	Somatic	ARAF	Oncogenic Mutations	Erdheim-Chester Disease
+Fda3	Somatic	ARAF	Oncogenic Mutations	Histiocytosis
+Fda3	Somatic	ARAF	Oncogenic Mutations	Langerhans Cell Histiocytosis
+Fda3	Somatic	ARAF	Oncogenic Mutations	Non-Small Cell Lung Cancer
+Fda3	Somatic	ARAF	Oncogenic Mutations	Rosai-Dorfman Disease
+Fda3	Somatic	ARID1A	Truncating Mutations	All Solid Tumors
+Fda3	Somatic	BRAF	Fusions	Melanoma
+Fda3	Somatic	BRAF	Fusions	Ovarian Cancer
+Fda3	Somatic	BRAF	G464, G469A, G469R, G469V	All Solid Tumors
+Fda3	Somatic	BRAF	K601	All Solid Tumors
+Fda3	Somatic	BRAF	K601	Melanoma
+Fda3	Somatic	BRAF	L597	All Solid Tumors
+Fda3	Somatic	BRAF	L597	Melanoma
+Fda3	Somatic	BRAF	Oncogenic Mutations (excluding V600)	Erdheim-Chester Disease
+Fda3	Somatic	BRAF	Oncogenic Mutations (excluding V600)	Histiocytosis
+Fda3	Somatic	BRAF	Oncogenic Mutations (excluding V600)	Langerhans Cell Histiocytosis
+Fda3	Somatic	BRAF	Oncogenic Mutations (excluding V600)	Rosai-Dorfman Disease
+Fda3	Somatic	BRAF	V600	Histiocytosis
+Fda3	Somatic	BRAF	V600	Langerhans Cell Histiocytosis
+Fda3	Somatic	BRAF	V600E	Diffuse Glioma (excluding Diffuse Astrocytoma, MYB- or MYBL1-Altered, Astrocytoma, IDH-Mutant, Glioma, NOS, Oligodendroglioma, IDH-mutant, and 1p/19q-Codeleted, Diffuse Midline Glioma, H3 K27-Altered)
+Fda3	Somatic	BRAF	V600E	Encapsulated Glioma
+Fda3	Somatic	BRAF	V600E	Pleomorphic Xanthoastrocytoma, Ganglioglioma, Pilocytic Astrocytoma
+Fda3	Somatic	BRCA1	Oncogenic Mutations	Breast Cancer
+Fda3	Somatic	BRCA1	Oncogenic Mutations	Pancreatic Adenocarcinoma, Acinar Cell Carcinoma of the Pancreas
+Fda3	Somatic	BRCA2	Oncogenic Mutations	Breast Cancer
+Fda3	Somatic	BRCA2	Oncogenic Mutations	Pancreatic Adenocarcinoma, Acinar Cell Carcinoma of the Pancreas
+Fda3	Somatic	BRCA2	Oncogenic Mutations	Uterine Sarcoma
+Fda3	Somatic	BTK	C481F	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma
+Fda3	Somatic	BTK	C481R	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma
+Fda3	Somatic	BTK	C481S	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma
+Fda3	Somatic	BTK	C481Y	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma
+Fda3	Somatic	BTK	T316A	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma
+Fda3	Somatic	BTK	T474I	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma
+Fda3	Somatic	BTK	T474S	Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma
+Fda3	Somatic	CCNE1	Amplification	All Solid Tumors
+Fda3	Somatic	CCNE1	Amplification	Ovarian Cancer, Endometrial Cancer
+Fda3	Somatic	CDK12	Truncating Mutations	All Solid Tumors
+Fda3	Somatic	CDK4	Amplification	Dedifferentiated Liposarcoma, Well-Differentiated Liposarcoma
+Fda3	Somatic	CDK4	Amplification	Uterine Sarcoma
+Fda3	Somatic	CDKN2A	Oncogenic Mutations	All Solid Tumors
+Fda3	Somatic	EGFR	A289V, R108K, T263P	Glioma
+Fda3	Somatic	EGFR	A763_Y764insFQEA	Non-Small Cell Lung Cancer
+Fda3	Somatic	EGFR	Amplification	Esophagogastric Cancer
+Fda3	Somatic	EGFR	Amplification	Glioma
+Fda3	Somatic	EGFR	C797G	Non-Small Cell Lung Cancer
+Fda3	Somatic	EGFR	C797S	Non-Small Cell Lung Cancer
+Fda3	Somatic	EGFR	D761Y	Non-Small Cell Lung Cancer
+Fda3	Somatic	EGFR	E709_T710delinsD	Non-Small Cell Lung Cancer
+Fda3	Somatic	EGFR	Exon 19 in-frame deletions, Exon 19 in-frame insertions, G719, L858R, L861Q, S768I	Non-Small Cell Lung Cancer
+Fda3	Somatic	EGFR	Exon 19 in-frame insertions	Non-Small Cell Lung Cancer
+Fda3	Somatic	EGFR	Exon 20 in-frame insertions	Non-Small Cell Lung Cancer
+Fda3	Somatic	EGFR	G465E	Colorectal Cancer
+Fda3	Somatic	EGFR	G465R	Colorectal Cancer
+Fda3	Somatic	EGFR	G719	Non-Small Cell Lung Cancer
+Fda3	Somatic	EGFR	G724S	Non-Small Cell Lung Cancer
+Fda3	Somatic	EGFR	Kinase Domain Duplication	Non-Small Cell Lung Cancer
+Fda3	Somatic	EGFR	L718Q	Non-Small Cell Lung Cancer
+Fda3	Somatic	EGFR	L718V	Non-Small Cell Lung Cancer
+Fda3	Somatic	EGFR	L747P	Non-Small Cell Lung Cancer
+Fda3	Somatic	EGFR	L792F	Non-Small Cell Lung Cancer
+Fda3	Somatic	EGFR	L792H	Non-Small Cell Lung Cancer
+Fda3	Somatic	EGFR	L861Q	Non-Small Cell Lung Cancer
+Fda3	Somatic	EGFR	S464L	Colorectal Cancer
+Fda3	Somatic	EGFR	S492R	Colorectal Cancer
+Fda3	Somatic	EGFR	S768I	Non-Small Cell Lung Cancer
+Fda3	Somatic	EGFR	T854A	Non-Small Cell Lung Cancer
+Fda3	Somatic	EGFR	V441D	Colorectal Cancer
+Fda3	Somatic	EGFR	V441G	Colorectal Cancer
+Fda3	Somatic	ERBB2	Amplification	All Solid Tumors
+Fda3	Somatic	ERBB2	Amplification	Biliary Tract, Hepatobiliary Cancer
+Fda3	Somatic	ERBB2	Oncogenic Mutations	Biliary Tract, Hepatobiliary Cancer
+Fda3	Somatic	ERBB2	Oncogenic Mutations	Breast Cancer
+Fda3	Somatic	ERBB2	Oncogenic Mutations	Non-Small Cell Lung Cancer
+Fda3	Somatic	ERCC2	Oncogenic Mutations	Bladder Cancer
+Fda3	Somatic	ESR1	Oncogenic Mutations (excluding Fusions)	Breast Cancer
+Fda3	Somatic	EZH2	Oncogenic Mutations (excluding Y646S, Y646H, Y646C, Y646F, Y646N, A682G and A692V)	Follicular Lymphoma
+Fda3	Somatic	FBXW7	Oncogenic Mutations	All Solid Tumors
+Fda3	Somatic	FBXW7	Oncogenic Mutations	Ovarian Cancer, Endometrial Cancer
+Fda3	Somatic	FGFR1	Oncogenic Mutations	All Solid Tumors
+Fda3	Somatic	FGFR2	Amplification	All Solid Tumors
+Fda3	Somatic	FGFR2	Oncogenic Mutations	All Solid Tumors (excluding Bladder Cancer)
+Fda3	Somatic	FGFR2	Oncogenic Mutations	All Solid Tumors (excluding Cholangiocarcinoma, Bladder Cancer)
+Fda3	Somatic	FGFR2	Oncogenic Mutations	Cholangiocarcinoma
+Fda3	Somatic	FGFR2	Oncogenic Mutations (excluding Fusions)	Bladder Cancer
+Fda3	Somatic	FGFR3	Oncogenic Mutations	All Solid Tumors
+Fda3	Somatic	FLI1	EWSR1-FLI1 Fusion	Ewing Sarcoma of Soft Tissue, Ewing Sarcoma
+Fda3	Somatic	FLT3	Internal Tandem Duplication	Acute Myeloid Leukemia
+Fda3	Somatic	HRAS	Oncogenic Mutations	Bladder Urothelial Carcinoma
+Fda3	Somatic	HRAS	Oncogenic Mutations	Head and Neck Squamous Cell Carcinoma
+Fda3	Somatic	IDH1	R132	Glioma
+Fda3	Somatic	JAK2	PCM1-JAK2 Fusion	Chronic Eosinophilic Leukemia, NOS
+Fda3	Somatic	KDM6A	Oncogenic Mutations	Bladder Cancer
+Fda3	Somatic	KIT	A829P	Gastrointestinal Stromal Tumor
+Fda3	Somatic	KIT	A829P, C809G, D816, D820, N822, Y823D	Gastrointestinal Stromal Tumor
+Fda3	Somatic	KIT	C809G	Gastrointestinal Stromal Tumor
+Fda3	Somatic	KIT	D816	Gastrointestinal Stromal Tumor
+Fda3	Somatic	KIT	D820	Gastrointestinal Stromal Tumor
+Fda3	Somatic	KIT	N822	Gastrointestinal Stromal Tumor
+Fda3	Somatic	KIT	T670I	Gastrointestinal Stromal Tumor
+Fda3	Somatic	KIT	V654A	Gastrointestinal Stromal Tumor
+Fda3	Somatic	KIT	Y823D	Gastrointestinal Stromal Tumor
+Fda3	Somatic	KRAS	G12A, G12D, G12R, G12S, G12V	All Solid Tumors
+Fda3	Somatic	KRAS	G12A, G12D, G12R, G12S, G12V	Non-Small Cell Lung Cancer
+Fda3	Somatic	KRAS	G12A, G12D, G12R, G12S, G12V	Pancreatic Adenocarcinoma
+Fda3	Somatic	KRAS	G12C	Gastrointestinal Neuroendocrine Tumors of the Esophagus/Stomach, Tubular Adenoma of the Colon, Anal Cancer, Esophagogastric Cancer
+Fda3	Somatic	KRAS	G12D	All Solid Tumors
+Fda3	Somatic	KRAS	G12D	Non-Small Cell Lung Cancer
+Fda3	Somatic	KRAS	G12D	Pancreatic Adenocarcinoma
+Fda3	Somatic	KRAS	Oncogenic Mutations	All Solid Tumors
+Fda3	Somatic	KRAS	Oncogenic Mutations	Erdheim-Chester Disease
+Fda3	Somatic	KRAS	Oncogenic Mutations	Histiocytosis
+Fda3	Somatic	KRAS	Oncogenic Mutations	Langerhans Cell Histiocytosis
+Fda3	Somatic	KRAS	Oncogenic Mutations	Rosai-Dorfman Disease
+Fda3	Somatic	MAP2K1	Oncogenic Mutations	Erdheim-Chester Disease
+Fda3	Somatic	MAP2K1	Oncogenic Mutations	Histiocytosis
+Fda3	Somatic	MAP2K1	Oncogenic Mutations	Langerhans Cell Histiocytosis
+Fda3	Somatic	MAP2K1	Oncogenic Mutations	Melanoma, Non-Small Cell Lung Cancer, Low-Grade Serous Ovarian Cancer
+Fda3	Somatic	MAP2K1	Oncogenic Mutations	Rosai-Dorfman Disease
+Fda3	Somatic	MAP2K2	Oncogenic Mutations	Erdheim-Chester Disease
+Fda3	Somatic	MAP2K2	Oncogenic Mutations	Histiocytosis
+Fda3	Somatic	MAP2K2	Oncogenic Mutations	Langerhans Cell Histiocytosis
+Fda3	Somatic	MAP2K2	Oncogenic Mutations	Rosai-Dorfman Disease
+Fda3	Somatic	MDM2	Amplification	All Solid Tumors
+Fda3	Somatic	MDM2	Amplification	Biliary Tract, Hepatobiliary Cancer
+Fda3	Somatic	MDM2	Amplification	Dedifferentiated Liposarcoma
+Fda3	Somatic	MDM2	Amplification	Intimal Sarcoma
+Fda3	Somatic	MDM2	Amplification	Well-Differentiated Liposarcoma
+Fda3	Somatic	MET	Amplification	Non-Small Cell Lung Cancer
+Fda3	Somatic	MET	D1228H	Non-Small Cell Lung Cancer
+Fda3	Somatic	MET	D1228N	Non-Small Cell Lung Cancer
+Fda3	Somatic	MET	F1200I	Non-Small Cell Lung Cancer
+Fda3	Somatic	MET	Fusions	All Solid Tumors
+Fda3	Somatic	MET	H1094Y	Non-Small Cell Lung Cancer
+Fda3	Somatic	MET	H1106D, M1250T, N1100S, R1170Q, V1092I	Non-Small Cell Lung Cancer
+Fda3	Somatic	MET	Y1003	Non-Small Cell Lung Cancer
+Fda3	Somatic	MET	Y1230H	Non-Small Cell Lung Cancer
+Fda3	Somatic	MTAP	Deletion	All Solid Tumors
+Fda3	Somatic	MTOR	E2014K, E2419K	Bladder Cancer
+Fda3	Somatic	MTOR	L2209V, L2427Q	Renal Cell Carcinoma
+Fda3	Somatic	MTOR	Oncogenic Mutations	All Solid Tumors
+Fda3	Somatic	MTOR	Q2223K	Renal Cell Carcinoma
+Fda3	Somatic	NF1	Oncogenic Mutations	All Solid Tumors
+Fda3	Somatic	NRAS	Oncogenic Mutations	Erdheim-Chester Disease
+Fda3	Somatic	NRAS	Oncogenic Mutations	Histiocytosis
+Fda3	Somatic	NRAS	Oncogenic Mutations	Langerhans Cell Histiocytosis
+Fda3	Somatic	NRAS	Oncogenic Mutations	Melanoma
+Fda3	Somatic	NRAS	Oncogenic Mutations	Rosai-Dorfman Disease
+Fda3	Somatic	NRAS	Oncogenic Mutations	Thyroid Cancer
+Fda3	Somatic	NRG1	Fusions	All Solid Tumors
+Fda3	Somatic	NRG1	Fusions	Non-Small Cell Lung Cancer
+Fda3	Somatic	NTRK1	Fusions	All Solid Tumors
+Fda3	Somatic	NTRK1	G595R	All Solid Tumors
+Fda3	Somatic	NTRK2	Fusions	All Solid Tumors
+Fda3	Somatic	NTRK3	Fusions	All Solid Tumors
+Fda3	Somatic	NTRK3	G623R	All Solid Tumors
+Fda3	Somatic	PALB2	Oncogenic Mutations	Pancreatic Adenocarcinoma, Acinar Cell Carcinoma of the Pancreas
+Fda3	Somatic	PIK3CA	Oncogenic Mutations	All Solid Tumors
+Fda3	Somatic	PIK3CA	Oncogenic Mutations	Breast Cancer
+Fda3	Somatic	PPP2R1A	Oncogenic Mutations	All Solid Tumors
+Fda3	Somatic	PPP2R1A	Oncogenic Mutations	Ovarian Cancer, Endometrial Cancer
+Fda3	Somatic	PTCH1	Truncating Mutations	Medulloblastoma
+Fda3	Somatic	PTEN	Oncogenic Mutations	All Solid Tumors
+Fda3	Somatic	RAF1	Oncogenic Mutations	Erdheim-Chester Disease
+Fda3	Somatic	RAF1	Oncogenic Mutations	Histiocytosis
+Fda3	Somatic	RAF1	Oncogenic Mutations	Langerhans Cell Histiocytosis
+Fda3	Somatic	RAF1	Oncogenic Mutations	Rosai-Dorfman Disease
+Fda3	Somatic	RET	Fusions	Non-Small Cell Lung Cancer
+Fda3	Somatic	RET	G810C	Non-Small Cell Lung Cancer
+Fda3	Somatic	RET	G810R	Non-Small Cell Lung Cancer
+Fda3	Somatic	RET	G810S	Non-Small Cell Lung Cancer
+Fda3	Somatic	RET	Oncogenic Mutations	Medullary Thyroid Cancer
+Fda3	Somatic	ROS1	G2032R	Non-Small Cell Lung Cancer
+Fda3	Somatic	ROS1	L2086F	Non-Small Cell Lung Cancer
+Fda3	Somatic	SF3B1	Oncogenic Mutations	Acute Myeloid Leukemia
+Fda3	Somatic	SF3B1	Oncogenic Mutations	Chronic Myelomonocytic Leukemia, Myelodysplastic Syndromes
+Fda3	Somatic	SF3B1	Oncogenic Mutations	Myelodysplastic Syndromes
+Fda3	Somatic	SMARCA4	Oncogenic Mutations	Esophageal Adenocarcinoma
+Fda3	Somatic	SMARCA4	Oncogenic Mutations	Non-Small Cell Lung Cancer
+Fda3	Somatic	SMARCB1	Oncogenic Mutations	All Liquid Tumors
+Fda3	Somatic	SRSF2	Oncogenic Mutations	Chronic Myelomonocytic Leukemia, Myelodysplastic Syndromes
+Fda3	Somatic	STK11	Oncogenic Mutations	Non-Small Cell Lung Cancer
+Fda3	Somatic	TP53	Y220C	All Solid Tumors
+Fda3	Somatic	TSC2	Oncogenic Mutations	Perivascular Epithelioid Cell Tumor, Uterine Perivascular Epithelioid Cell Tumor
+Fda3	Somatic	U2AF1	Oncogenic Mutations	Acute Myeloid Leukemia
+Fda3	Somatic	U2AF1	Oncogenic Mutations	Chronic Myelomonocytic Leukemia, Myelodysplastic Syndromes
+Fda3	Somatic	U2AF1	Oncogenic Mutations	Myelodysplastic Syndromes
+Fda3	Somatic	ZRSR2	Oncogenic Mutations	Chronic Myelomonocytic Leukemia, Myelodysplastic Syndromes

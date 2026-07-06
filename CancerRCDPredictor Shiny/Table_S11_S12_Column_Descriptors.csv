@@ -1,0 +1,27 @@
+Column_Name,Descriptor,Target_Block
+Algorithms Validating,"The list of specific machine learning algorithms (e.g., XGBoost, RSF, Boruta, MTLR) that successfully validated the signature",Personalized Prediction Block
+Biological Layer,"The omic layer of the signature (e.g., Transcript expression, CpG Methylation, microRNA)",Population Information Block AND Personalized Prediction Block
+Boruta Importance,The computed feature importance score using Boruta feature selection,Personalized Prediction Block
+Boruta Validation,The statistical validation status for the Boruta algorithm,Personalized Prediction Block
+Cohorts Present,"The specific clinical patient cohorts (e.g., ACC_DSS_df377, ACC_OS_df377) where the signature was successfully validated",Personalized Prediction Block
+Combined Outcome,"The summarized prognostic value (e.g., Risky, Protective, Meaningful Risky) combining statistical hazard models",Population Information Block
+CTAB,The TCGA cancer type abbreviation representing the localized tissue context,Population Information Block
+Decoded Genetic Element,"The precise gene symbols decoded from the signature, representing the true biological target",Population Information Block AND Personalized Prediction Block
+Elements,Number of element genetic components integrating the signature,Population Information Block AND Personalized Prediction Block
+Expression,"The categorical expression profile of the target (e.g., Overexpressed, Underexpressed, Unchanged) in tumor versus normal tissues",Population Information Block
+Feature,"The internal tokenized nomenclature identifier (e.g., ESCA-157.5.3.P...) detailing the 11-part array",Population Information Block
+MTLR Importance,The computed feature importance score using Multi-Task Logistic Regression (MTLR),Personalized Prediction Block
+MTLR Validation,The statistical validation status for the MTLR algorithm,Personalized Prediction Block
+Nomenclature,"The internal short nomenclature identifier (e.g., ESCA-157)",Population Information Block AND Personalized Prediction Block
+Omic feature,"The omic layer of the signature (e.g., Transcript expression, CpG Methylation, microRNA)",Population Information Block AND Personalized Prediction Block
+Phenotype,"The clinical phenotype correlated with the signature (e.g., TMB, MSI, TSM)",Population Information Block
+RCD form,"The precise Regulated Cell Death mechanisms (e.g., Apoptosis, Ferroptosis, Necroptosis) triggered by or associated with the signature",Population Information Block
+RSF Importance,The computed feature importance score using Random Survival Forests (RSF),Personalized Prediction Block
+RSF Validation,The statistical validation status for the Random Survival Forests algorithm,Personalized Prediction Block
+SCS,Spearman Correlation Sign indicating a positive (P) or negative (N) correlation with the phenotype,Population Information Block
+Signature,The primary gene symbol or combined genetic elements targeted by the biomarker,Population Information Block AND Personalized Prediction Block
+Total Algorithms,The total number of machine learning algorithms deployed for validation,Personalized Prediction Block
+Total Cohorts,The absolute number of clinical cohorts where the biomarker was tested,Personalized Prediction Block
+Total Validated Algorithms,The mathematical sum of successful validations across cohorts and algorithms,Personalized Prediction Block
+XGBoost Importance,The computed feature importance score using Extreme Gradient Boosting (XGBoost),Personalized Prediction Block
+XGBoost Validation,The statistical validation status for the XGBoost algorithm,Personalized Prediction Block
