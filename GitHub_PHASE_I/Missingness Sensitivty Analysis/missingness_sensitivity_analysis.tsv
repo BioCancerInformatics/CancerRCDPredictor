@@ -1,0 +1,6 @@
+Threshold_pct	Eligible_vars	Ineligible_vars	Pct_vars_retained	Retained_patients	Excluded_patients	Pct_patients_retained	Pct_excluded_100pct_missing	Cells_imputed	Pct_cells_imputed	Strata_Cindex_unchanged	Median_Cindex_delta
+20	14266	641	95.7	8222	2220	78.7		68604	11.6	95/120 (79.2%)	0.000
+30	14578	329	97.8	9715	727	93	97.9	68604	11.6	95/120 (79.2%)	0.000
+35	14595	312	97.9	9715	727	93	97.9	68604	11.6	95/120 (79.2%)	0.000
+40	14825	82	99.4	9724	718	93.1	99.2	68604	11.6	95/120 (79.2%)	0.000
+50	14899	8	99.9	9724	718	93.1	99.2	68604	11.6	95/120 (79.2%)	0.000
