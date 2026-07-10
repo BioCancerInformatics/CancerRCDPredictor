@@ -1,0 +1,17 @@
+Random Seed Documentation — Phase I/II (Notebook)
+==================================================
+
+Phase I Imputation:
+  - mice imputation: set.seed(42) per imputation batch
+  - Groupwise imputation: seed reset per cancer type with offset
+  - Dummy-variable injection: set.seed(123) for random feature generation
+
+Phase II CANARY:
+  - glmnet cv.glmnet: set.seed(42) for fold assignment
+  - Lambda grid: fixed sequence (100 values), no random component
+  - Stratification: no random splitting; each stratum is tested independently
+
+Global conventions:
+  - Primary reproducibility seed: set.seed(42) throughout Phase I/II
+  - Auxiliary seed (dummy variables): set.seed(123)
+  - All seeds documented in respective R script headers

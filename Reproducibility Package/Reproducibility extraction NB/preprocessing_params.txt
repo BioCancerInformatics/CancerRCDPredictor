@@ -1,0 +1,37 @@
+Preprocessing Parameters — Phase I/II (Notebook)
+=================================================
+
+PHASE I — Data Harmonization & Imputation:
+  - Missingness threshold for omic variables: 35% (variable excluded if >35% NA across cohort)
+  - Dummy-variable injection: 1% random dummy features for Boruta signal-noise calibration
+  - Imputation engine: mice (M=5, maxit=10, method='pmm' for continuous, 'logreg' for binary)
+  - Imputation scope: groupwise (within cancer type), no cross-cohort amalgamation
+  - Feature harmonization: token-based naming convention (e.g., READ-56.6.3.N.2.4.7.1.3.1)
+  - Phase I output: df008 through df377 (11 unique TAR-admissible matrices)
+  - Master reference matrix: df005.rds (unimputed, all 14,595 signatures)
+  - Survival time completion: DFI.time completed for administrative censor cases (9.96% of DFI records)
+  - Duplicate removal: patient deduplication using TCGA barcode substring matching
+  - Clinical endpoint gating: OS.time, DSS.time, DFI.time, PFI.time > 0 required
+
+PHASE II — CANARY Diagnostic:
+  - Model: CoxNet (Elastic Net-regularized Cox regression)
+  - Regularization path: 100 lambda values, alpha = 0.5 (elastic net mix)
+  - Mu-ladder: decreasing lambda sequence testing structural PH feasibility
+  - Convergence criterion: strata with non-null coefficient path at any lambda = admitted
+  - Admitted strata: 96 of 120 tested (80%); 24 failed due to target scarcity
+  - Admission label: Non-Proportional / Mu-Exhausted (all 96 admitted strata)
+  - Software: glmnet v4.1-8 with family='cox'
+
+PHASE I/II — Software Dependencies:
+  - R version: see sessionInfo_NB.txt
+  - Key packages: mice, missForest, glmnet, survival, data.table, dplyr
+  - Environment: renv_phase_I_II.lock (provided in GitHub repository)
+
+Data Sources:
+  - TCGA multi-omic data: UCSC Xena (https://xena.ucsc.edu)
+  - Clinical endpoints: TCGA Clinical Data Resource (OS, DSS, DFI, PFI)
+  - Omic layers (7): mRNA, Transcript Isoform, microRNA, Protein (RPPA),
+    DNA Methylation, Somatic Mutation, Copy Number Variation (CNV)
+  - Supplementary Dataset S1: 14,907 clinically relevant signatures
+  - Supplementary Dataset S2: Phase III derivation matrix (10,306 patients)
+  - Supplementary Dataset S3: Blind validation matrix (1,050 patients)

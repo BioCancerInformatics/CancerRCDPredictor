@@ -1,0 +1,21 @@
+R version 4.5.1 (2025-06-13)
+Platform: x86_64-pc-linux-gnu
+Running under: NixOS 25.11 (Xantusia)
+
+Matrix products: default
+BLAS/LAPACK: /nix/store/xrcid1kfw560kybll9zjnhp2ja631abv-blas-3/lib/libblas.so.3;  LAPACK version 3.12.0
+
+locale:
+ [1] LC_CTYPE=pt_BR.UTF-8       LC_NUMERIC=C               LC_TIME=pt_BR.UTF-8        LC_COLLATE=pt_BR.UTF-8    
+ [5] LC_MONETARY=pt_BR.UTF-8    LC_MESSAGES=pt_BR.UTF-8    LC_PAPER=pt_BR.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C             LC_MEASUREMENT=pt_BR.UTF-8 LC_IDENTIFICATION=C       
+
+time zone: America/Sao_Paulo
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+[1] compiler_4.5.1    Matrix_1.7-3      tools_4.5.1       xgboost_1.7.11.1  grid_4.5.1        data.table_1.17.8
+[7] jsonlite_2.0.0    lattice_0.22-7   
